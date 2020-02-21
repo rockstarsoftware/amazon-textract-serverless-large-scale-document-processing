@@ -2,7 +2,7 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
 require("source-map-support/register");
-const cdk = require("@aws-cdk/cdk");
+const cdk = require("@aws-cdk/core");
 const textract_pipeline_stack_1 = require("../lib/textract-pipeline-stack");
 const app = new cdk.App();
 new textract_pipeline_stack_1.TextractPipelineStack(app, 'TextractPipeline');

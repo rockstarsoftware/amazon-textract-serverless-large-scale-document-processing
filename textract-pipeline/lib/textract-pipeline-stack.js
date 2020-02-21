@@ -1,6 +1,6 @@
 "use strict";
 Object.defineProperty(exports, "__esModule", { value: true });
-const cdk = require("@aws-cdk/cdk");
+const cdk = require("@aws-cdk/core");
 const events = require("@aws-cdk/aws-events");
 const iam = require("@aws-cdk/aws-iam");
 const aws_lambda_event_sources_1 = require("@aws-cdk/aws-lambda-event-sources");
